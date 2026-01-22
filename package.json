@@ -1,0 +1,34 @@
+{
+    "name": "vscode-language-pack-el",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "alexis",
+    "scripts": {
+        "package": "vsce package"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Language Packs"
+    ],
+    "devDependencies": {
+        "vsce": "^1.100.0"
+    },
+    "contributes": {
+        "localizations": [
+            {
+                "languageId": "el",
+                "languageName": "Greek",
+                "localizedLanguageName": "Ελληνικά",
+                "translations": [
+                    {
+                        "id": "vscode",
+                        "path": "./translations/main.i18n.json"
+                    }
+                ]
+            }
+        ]
+    }
+}
