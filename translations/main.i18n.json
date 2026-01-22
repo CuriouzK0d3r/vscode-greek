@@ -1,75 +1,77 @@
 {
-	"vs/workbench/browser/parts/editor/editorActions": {
-		"splitEditorRight": "Διαχωρισμός επεξεργαστή δεξιά",
-		"splitEditorDown": "Διαχωρισμός επεξεργαστή κάτω",
-		"closeEditor": "Κλείσιμο επεξεργαστή",
-		"closeAllEditors": "Κλείσιμο όλων των επεξεργαστών",
-		"closeFolder": "Κλείσιμο φακέλου",
-		"saveAll": "Αποθήκευση όλων"
-	},
-	"vs/workbench/contrib/files/browser/fileActions": {
-		"newFile": "Νέο αρχείο",
-		"newFolder": "Νέος φάκελος",
-		"rename": "Μετονομασία",
-		"delete": "Διαγραφή",
-		"copyPath": "Αντιγραφή διαδρομής",
-		"revealInExplorer": "Εμφάνιση στην Εξερεύνηση",
-		"open": "Άνοιγμα",
-		"save": "Αποθήκευση",
-		"undo": "Αναίρεση",
-		"redo": "Επανάληψη"
-	},
-	"vs/workbench/browser/parts/activitybar/activitybarPart": {
-		"explorer": "Εξερεύνηση",
-		"search": "Αναζήτηση",
-		"sourceControl": "Έλεγχος κώδικα",
-		"run": "Εκτέλεση και αποσφαλμάτωση",
-		"extensions": "Επεκτάσεις",
-		"accounts": "Λογαριασμοί",
-		"manage": "Διαχείριση"
-	},
-	"vs/workbench/browser/parts/statusbar/statusbarPart": {
-		"status.host": "Άνοιγμα απομακρυσμένου παραθύρου",
-		"status.remote": "Απομακρυσμένη σύνδεση"
-	},
-	"vs/workbench/contrib/search/browser/searchActions": {
-		"showTriggerActions": "Εναλλαγή λεπτομερειών αναζήτησης",
-		"clearSearch": "Καθαρισμός αποτελεσμάτων αναζήτησης",
-		"toggleCaseSensitive": "Διάκριση πεζών/κεφαλαίων",
-		"toggleRegex": "Τυπική έκφραση"
-	},
-	"vs/base/browser/ui/actionbar/actionViewItems": {
-		"titleLabel": "{0} ({1})"
-	},
-	"vs/workbench/browser/parts/sidebar/sidebarPart": {
-		"sidebar.primarySideBarTitle": "Κύρια πλευρική γραμμή"
-	},
-	"vs/workbench/browser/parts/editor/textEditor": {
-		"editor.line": "Γραμμή",
-		"editor.column": "Στήλη",
-		"editor.lines": "γραμμές",
-		"editor.characters": "χαρακτήρες"
-	},
-	"vs/workbench/contrib/terminal/browser/terminalActions": {
-		"terminal.new": "Νέο τερματικό",
-		"terminal.split": "Διαχωρισμός τερματικού",
-		"terminal.kill": "Κλείσιμο τερματικού",
-		"terminal.clear": "Καθαρισμός τερματικού"
-	},
-	"vs/workbench/contrib/debug/browser/debugActions": {
-		"debug.continue": "Συνέχεια",
-		"debug.stepOver": "Βήμα πάνω",
-		"debug.stepInto": "Βήμα μέσα",
-		"debug.stepOut": "Βήμα έξω",
-		"debug.start": "Έναρξη αποσφαλμάτωσης",
-		"debug.stop": "Σταμάτηση αποσφαλμάτωσης"
-	},
-	"vs/workbench/contrib/preferences/browser/preferencesActions": {
-		"settings": "Ρυθμίσεις",
-		"keybindings": "Συντομεύσεις πληκτρολογίου",
-		"themes": "Θέματα"
-	},
-	"vs/workbench/services/editor/common/editorService": {
-		"multipleEditors": "Πολλαπλοί επεξεργαστές"
+	"contents": {
+		"vs/workbench/browser/parts/editor/editorActions": {
+			"splitEditorRight": "Διαχωρισμός επεξεργαστή δεξιά",
+			"splitEditorDown": "Διαχωρισμός επεξεργαστή κάτω",
+			"closeEditor": "Κλείσιμο επεξεργαστή",
+			"closeAllEditors": "Κλείσιμο όλων των επεξεργαστών",
+			"closeFolder": "Κλείσιμο φακέλου",
+			"saveAll": "Αποθήκευση όλων"
+		},
+		"vs/workbench/contrib/files/browser/fileActions": {
+			"newFile": "Νέο αρχείο",
+			"newFolder": "Νέος φάκελος",
+			"rename": "Μετονομασία",
+			"delete": "Διαγραφή",
+			"copyPath": "Αντιγραφή διαδρομής",
+			"revealInExplorer": "Εμφάνιση στην Εξερεύνηση",
+			"open": "Άνοιγμα",
+			"save": "Αποθήκευση",
+			"undo": "Αναίρεση",
+			"redo": "Επανάληψη"
+		},
+		"vs/workbench/browser/parts/activitybar/activitybarPart": {
+			"explorer": "Εξερεύνηση",
+			"search": "Αναζήτηση",
+			"sourceControl": "Έλεγχος κώδικα",
+			"run": "Εκτέλεση και αποσφαλμάτωση",
+			"extensions": "Επεκτάσεις",
+			"accounts": "Λογαριασμοί",
+			"manage": "Διαχείριση"
+		},
+		"vs/workbench/browser/parts/statusbar/statusbarPart": {
+			"status.host": "Άνοιγμα απομακρυσμένου παραθύρου",
+			"status.remote": "Απομακρυσμένη σύνδεση"
+		},
+		"vs/workbench/contrib/search/browser/searchActions": {
+			"showTriggerActions": "Εναλλαγή λεπτομερειών αναζήτησης",
+			"clearSearch": "Καθαρισμός αποτελεσμάτων αναζήτησης",
+			"toggleCaseSensitive": "Διάκριση πεζών/κεφαλαίων",
+			"toggleRegex": "Τυπική έκφραση"
+		},
+		"vs/base/browser/ui/actionbar/actionViewItems": {
+			"titleLabel": "{0} ({1})"
+		},
+		"vs/workbench/browser/parts/sidebar/sidebarPart": {
+			"sidebar.primarySideBarTitle": "Κύρια πλευρική γραμμή"
+		},
+		"vs/workbench/browser/parts/editor/textEditor": {
+			"editor.line": "Γραμμή",
+			"editor.column": "Στήλη",
+			"editor.lines": "γραμμές",
+			"editor.characters": "χαρακτήρες"
+		},
+		"vs/workbench/contrib/terminal/browser/terminalActions": {
+			"terminal.new": "Νέο τερματικό",
+			"terminal.split": "Διαχωρισμός τερματικού",
+			"terminal.kill": "Κλείσιμο τερματικού",
+			"terminal.clear": "Καθαρισμός τερματικού"
+		},
+		"vs/workbench/contrib/debug/browser/debugActions": {
+			"debug.continue": "Συνέχεια",
+			"debug.stepOver": "Βήμα πάνω",
+			"debug.stepInto": "Βήμα μέσα",
+			"debug.stepOut": "Βήμα έξω",
+			"debug.start": "Έναρξη αποσφαλμάτωσης",
+			"debug.stop": "Σταμάτηση αποσφαλμάτωσης"
+		},
+		"vs/workbench/contrib/preferences/browser/preferencesActions": {
+			"settings": "Ρυθμίσεις",
+			"keybindings": "Συντομεύσεις πληκτρολογίου",
+			"themes": "Θέματα"
+		},
+		"vs/workbench/services/editor/common/editorService": {
+			"multipleEditors": "Πολλαπλοί επεξεργαστές"
+		}
 	}
 }

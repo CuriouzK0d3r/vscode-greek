@@ -20,11 +20,15 @@
         "localizations": [
             {
                 "languageId": "el",
-                "languageName": "Greek",
-                "localizedLanguageName": "Ελληνικά",
+                "languageName": "%languageName%",
+                "localizedLanguageName": "%localizedLanguageName%",
                 "translations": [
                     {
                         "id": "vscode",
+                        "path": "./translations/main.i18n.json"
+                    },
+                    {
+                        "id": "vscode.workbench",
                         "path": "./translations/main.i18n.json"
                     }
                 ]

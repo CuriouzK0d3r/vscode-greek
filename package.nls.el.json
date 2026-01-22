@@ -1,10 +1,6 @@
 {
     "displayName": "Ελληνικό Πακέτο Γλώσσας",
     "description": "Επέκταση πακέτου γλώσσας για τα Ελληνικά",
-    "activationEvents": "Συμβάντα ενεργοποίησης",
-    "contributes": "Συνεισφορές",
-    "localizations": "Τοπικοποιήσεις",
-    "languageId": "Αναγνωριστικό γλώσσας",
-    "languageName": "Όνομα γλώσσας",
-    "translations": "Μεταφράσεις"
+    "languageName": "Ελληνικά",
+    "localizedLanguageName": "Ελληνικά"
 }
